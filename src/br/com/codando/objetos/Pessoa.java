@@ -1,4 +1,4 @@
-package br.com.beerandjava.objetos;
+package br.com.codando.objetos;
 
 public class Pessoa {
 	public String nome;

@@ -1,6 +1,6 @@
-package br.com.beerandjava.test;
+package br.com.codando.test;
 
-import br.com.beerandjava.objetos.Pessoa;
+import br.com.codando.objetos.Pessoa;
 
 public class PessoaTest {
 
