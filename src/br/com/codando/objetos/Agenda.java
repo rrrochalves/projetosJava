@@ -29,4 +29,34 @@ public class Agenda {
 	public void setTelefone(String telefone) {
 		this.telefone = telefone;
 	}
+	
+	//COntrutor padrao;
+	public Agenda() {
+		
+	}
+	
+	public Agenda(String nome, String telefone) {
+		this.nome = nome;
+		this.telefone = telefone;
+	}
+	
+	//Construtor Completo;
+	public Agenda(String nome, String endereco, String telefone) {
+		this.nome = nome;
+		this.endereco = endereco;
+		this.telefone = telefone;
+	}
+	
+	
+	@Override
+	public boolean equals(Object agenda) {
+		if(this.nome == ((Agenda) agenda).getNome() 
+				&& this.endereco == ((Agenda) agenda).getEndereco() 
+				&& this.telefone == ((Agenda) agenda).getTelefone()) {
+			
+			return true;
+		}
+		return false;
+	}
+	
 }

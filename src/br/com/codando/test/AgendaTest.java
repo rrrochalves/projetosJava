@@ -29,6 +29,48 @@ public class AgendaTest {
 				+ "\nEndereço: " + a2.getEndereco()
 				+ "\nTelefone: " + a2.getTelefone());
 		System.out.println("==================================");
+		
+		System.out.println("==================================");
+		Agenda a3 = new Agenda("Fulando da Silva", "Av 666", "16 99995555");
+		
+		System.out.println("Nome:" + a3.getNome() 
+						+ "\nEndereço: " + a3.getEndereco() 
+						+ "\nTelefone: " + a3.getTelefone());
+		
+		System.out.println("==================================");
+		Agenda a4 = new Agenda("Beutrano Oliveira", "16 66666-6666");
+		
+		System.out.println("Nome:" + a4.getNome() 
+						+ "\nEndereço: " + a4.getEndereco()
+						+ "\nTelefone: " + a4.getTelefone());
+		
+		System.out.println("==================================");
+		Agenda a5 = new Agenda();
+		
+		a5.setEndereco("Avenida chuchu beleza");
+		
+		System.out.println("Nome:" + a5.getNome() 
+						+ "\nEndereço: " + a5.getEndereco()
+						+ "\nTelefone: " + a5.getTelefone());
+		
+		System.out.println("==================================");
+		Agenda a6 = new Agenda();
+		//a6.setNome("Roni");
+		//a6.setEndereco("Av 1");
+		//a6.setTelefone("111111");
+		
+		Agenda a7 = new Agenda();
+		//a7.setNome("Roni");
+		//a7.setEndereco("Av1");
+		//a7.setTelefone("111111");
+		
+		if(a6.equals(a7)) {
+			System.out.println("Iguais!");
+		}else {
+			System.out.println("Nao iguais!");
+		}
+		
+		
 	}
 
 }

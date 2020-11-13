@@ -44,6 +44,8 @@ public class PessoaTest {
 		pessoa3.andar();
 		
 		System.out.println("==============================");
+		
+		pessoa1.equals(pessoa2);
 
 	}
 
